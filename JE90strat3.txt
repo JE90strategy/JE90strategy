@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: tradingview-to-telegram
+    env: python
+    buildCommand: ""
+    startCommand: python tradingview_to_telegram.py
+    plan: free
+    region: oregon
