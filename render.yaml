@@ -1,6 +1,6 @@
 services:
   - type: web
-    name:TradingView_to_Telegram.py
+    name:tradingview_to_telegram.py
     env: python
     buildCommand: ""
     startCommand: "python tradingview_to_telegram.py"
